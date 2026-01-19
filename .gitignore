@@ -9,3 +9,7 @@ cache_ch.jpg
 edge.jpg
 line.jpg
 crop.jpg
+__pycache__/
+function/__pycache__/
+temp_uploads/
+venv/

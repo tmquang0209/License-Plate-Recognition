@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  lp-recognition:
+    ports:
+      - "8000:8000"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lp-recognition
+    volumes:
+      - .:/app
+    command: python main.py
