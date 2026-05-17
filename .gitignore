@@ -13,3 +13,4 @@ __pycache__/
 function/__pycache__/
 temp_uploads/
 venv/
+.env

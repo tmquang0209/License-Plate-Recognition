@@ -2,7 +2,8 @@
 import os
 import secrets
 import shutil
-
+from dotenv import load_dotenv
+load_dotenv()
 import uvicorn
 from fastapi import Depends, FastAPI, File, HTTPException, UploadFile, status
 from fastapi.middleware.cors import CORSMiddleware
